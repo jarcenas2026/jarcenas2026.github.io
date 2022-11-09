@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;1,200&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .Header {
+            min-height:100vh;
+            width: 100%;
+            background-image: url("images/flame.png");
+            background-size: cover;
+            background-position: center;
+            font-family: 'Raleway', sans-serif;
+            background-attachment: fixed;
+            height:600px;
+        }
+        nav{
+            display: flex;
+            padding: 1% 1%;
+            justify-content: space-between;
+            align-items: center
+        }
+        nav img{
+            width: 150px;
+        }
+        .nav-links{
+            flex: 1;
+            text-align: right;
+        }
+        .nav-links  ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 15px;
+            position: relative;
+        }
+        .nav-links ul li a{
+            color: #8C4981;
+            text-decoration: none;
+            font-size: 13px;
+        }
+        .nav-links ul li::after{
+            content: '';
+            width: 0%;
+            height: 2px;
+            background: #40292D;
+            display: block;
+            margin: auto;
+            transition: 0.5s;
+        }
+        .nav-links ul li:hover::after{
+            width: 100%;
+        }
+        #CONTACT-US{
+background-color: white;
+text-align: center;
+}
+    </style>
+    <title>CONTACT PAGE</title>
+</head>
+<body>
+    <section class="Header">
+    <nav>
+        <a href="index.html"><img width="500" height="100" src="images/Fire_Moth.png" alt="image did not load"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="flamechasers.html"><b>FLAMECHASERS</b></a></li>
+                <li><a href="projects.html"><b>PROJECTS</b></a></li>
+                <li><a href="About-us.html"><b>ABOUT US</b></a></li>
+                <li><a href="Contact-US.html"><b>CONTACT US</b></a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="CONTACT-US">
+        <h2><em>CONTACT US</em></h2>
+        <p>Contact Number:</p>
+        <p>placeholder</p>
+        <p>Address:</p>
+        <p>somewhere in previous era malay</p>
+        <p>Email:</P>
+        <p>jarcenas2026@clc.pshs.edu.ph</p>
+    </div>
+    </section>
